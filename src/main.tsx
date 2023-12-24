@@ -1,6 +1,16 @@
-import { Fragment, render } from "preact";
-import App from "./App";
+//import { Router } from 'preact-iso/router';
+import { render } from "preact";
 import "./styles.css";
+//import About from './about';
+import App from './app';
 
 
-render(<Fragment><App /></Fragment>, document.getElementById("root")!);
+
+//const Routes = () => (
+//    <Router>
+//        <App path="/" />
+//        <About path="/about" />
+//    </Router>
+//);
+
+render(<App />, document.getElementById("root")!);

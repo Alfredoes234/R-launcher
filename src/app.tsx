@@ -1,7 +1,10 @@
 import { useState } from "preact/hooks";
 import preactLogo from "./assets/preact.svg";
 import { invoke } from "@tauri-apps/api/tauri";
-import "./App.css";
+//import { Cog } from 'lucide-preact';
+import "./app.css";
+
+
 
 function App() {
   const [greetMsg, setGreetMsg] = useState("");
@@ -15,7 +18,6 @@ function App() {
   return (
     <div class="container">
       <h1>Welcome to Tauri!</h1>
-
       <div class="row">
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" class="logo vite" alt="Vite logo" />
@@ -46,6 +48,9 @@ function App() {
       </form>
 
       <p>{greetMsg}</p>
+      <div>
+        <a href="/about">about</a>
+      </div>
     </div>
   );
 }
