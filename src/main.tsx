@@ -1,15 +1,16 @@
-import { Router } from 'preact-iso/router';
-import { render } from "preact";
-import "./styles.css";
-import About from './about';
+import { Router, Route } from 'preact-router';
+import { render } from 'preact';
+import "./global.css";
 import App from './app';
+import About from './about';
+
 
 
 
 const Routes = () => (
     <Router>
-        <App path="/" />
-        <About path="/about" />
+        <Route path="/" component={App} />
+        <Route path="/about" component={About} />
     </Router>
 );
 

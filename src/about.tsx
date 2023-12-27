@@ -1,11 +1,11 @@
-import "./app.css";
+
 
 
 
 function About() {
     return (
         <div class="container">
-            <p>bepsi</p>
+            <h1 className="text-9xl">bepsi</h1>
         </div>
     );
 }
