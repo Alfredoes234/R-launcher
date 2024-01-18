@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "R-launcher",
-    "version": "0.0.1"
+    "productName": "template",
+    "version": "0.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -15,15 +15,12 @@
       "shell": {
         "all": false,
         "open": true
-      },
-      "fs": {
-        "all": true
       }
     },
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.reiner.dev",
+      "identifier": "com.rayner.dev",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -39,7 +36,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "r-launcher",
+        "title": "template",
         "width": 800,
         "height": 600
       }
